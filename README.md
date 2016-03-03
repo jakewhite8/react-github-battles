@@ -1,5 +1,6 @@
 # react-github-battles
-react practice
+react practice <br>
+reactJS fundamentals course: http://courses.reactjsprogram.com/courses/reactjsfundamentals
 
 start: <br>
 $npm install <br>
