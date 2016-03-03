@@ -1,6 +1,6 @@
 # react-github-battles
 react practice
 
-start: 
-$npm install
+start: <br>
+$npm install <br>
 $npm run start
