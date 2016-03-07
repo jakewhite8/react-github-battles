@@ -28,6 +28,7 @@ var Prompt = function (props) {
 	);
 }
 
+//type checking
 Prompt.propTypes = {
 	header: PropTypes.string.isRequired,
 	onUpdateUser: PropTypes.func.isRequired,

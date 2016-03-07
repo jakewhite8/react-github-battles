@@ -2,6 +2,7 @@ var React = require('react');
 var ReactRouter = require('react-router');
 var Router = ReactRouter.Router;
 var Route = ReactRouter.Route;
+var hashHistory = ReactRouter.hashHistory;
 //used to specify default - if no other recognized route is enabled
 var IndexRoute = ReactRouter.IndexRoute;
 
@@ -10,7 +11,7 @@ var Home = require('../components/Home');
 var PromptContainer = require('../containers/PromptContainer');
 
 var routes = (
-	<Router>
+	<Router history={hashHistory}>
 		<Route path='/' component={Main}>
 			<IndexRoute component={Home} />
 			<Route path='playerOne' header="Player One" component={PromptContainer} />
