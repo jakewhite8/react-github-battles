@@ -4,4 +4,5 @@ reactJS fundamentals course: http://courses.reactjsprogram.com/courses/reactjsfu
 
 start: <br>
 $npm install <br>
-$npm run start
+create dist file: $npm run propduction <br>
+run on locahost:8080 -- $npm run start
